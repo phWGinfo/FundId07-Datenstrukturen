@@ -1,6 +1,7 @@
 package phwginfo.datenstrukturen;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 public class DemoBigList {
@@ -12,7 +13,7 @@ public class DemoBigList {
         // eine riesige Liste gestalten
         System.out.println(System.currentTimeMillis());
         System.out.println("Baue Liste.");
-        List bigList = new ArrayList(maxSize);
+        List bigList = new LinkedList();
         System.out.println(System.currentTimeMillis());
 
         System.out.println(System.currentTimeMillis());
