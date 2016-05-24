@@ -8,7 +8,7 @@ public class DemoBigList {
 
     public static void main(String[] args) {
 
-        int maxSize = 1000*1000*50;
+        int maxSize = 1000*50;
 
         // eine riesige Liste gestalten
         System.out.println(System.currentTimeMillis());
