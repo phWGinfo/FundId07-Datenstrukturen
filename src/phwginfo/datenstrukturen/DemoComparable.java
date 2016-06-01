@@ -10,9 +10,9 @@ public class DemoComparable {
                 a = "wachsen"
                   //new Gebauede(500, "Doggenried", 23)
                 , b = "brennen"
-                  //new Gebauede(800, "Lazarett",   35)
+                  // new Gebauede(800, "Lazarett",   35)
                 , c = "lenken"
-                  //new Gebauede(100, "Leibnitz",    6)
+                  // new Gebauede(100, "Leibnitz",    6)
                         ;
         List things = Arrays.asList(a, b, c);
         System.out.println("Vergleiche " + a + " und " + b + ".");
